@@ -8,7 +8,7 @@ import math
 from wordcloud import WordCloud
 
 
-## loading data
+## loading data (IOS chat specific)
 def startsWithDateAndTime(s):
     pattern = '^\[([0-9]+)([\/-])([0-9]+)([\/-])([0-9]+)[,]? ([0-9]+):([0-9][0-9]):([0-9][0-9])[ ]?(AM|PM|am|pm)?\]'
     result = re.match(pattern, s)
